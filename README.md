@@ -24,8 +24,11 @@ Neste assignment estamos desenvolvendo uma aplicao de web, sera usado Python, Dj
 Bibliography:
 
 Docs, R. t. (n.d.). Writing your first Django app. Retrieved from Django: https://docs.djangoproject.com/en/4.1/intro/tutorial01/
+
 Vincent, W. (2022, March 22). Django Login and Logout Tutorial. Retrieved from LearnDjango: https://learndjango.com/tutorials/django-login-and-logout-tutorial
+
 Vincent, W. (2022, March 22). Django Password Reset Tutorial. Retrieved from LearnDjango: https://learndjango.com/tutorials/django-password-reset-tutorial
+
 Vincent, W. (2022, March 11). Django Signup Tutorial. Retrieved from LearnDjango: https://learndjango.com/tutorials/django-signup-tutorial
 
 
