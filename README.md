@@ -1,27 +1,11 @@
 BSC30921 - Back-end Web Development - Continuous Assessment 1
 
-Assignment Description
-
-Develop a web application API using Python and the Django framework that can perform CRUD operations on a MySQL database. You are free to choose the type of data the application will store (e.g. users, cars, animals, etc.). The data should be complex enough, containing different types of values (Strings, ints, Booleans, etc.).
-
-All CRUD operations are working as intended (e.g. the right data is retrieved while using an index, data is being deleted by a criteria, retrieve one or multiple records).
-
-The application is connecting to the right database. 
-
-The data is complex: it contains at least one index (unique entry); has at least 3 types of variables and there are sufficient entries already in the database;
-
-Code is readable: consistency, right indentation, comments
-.
-The application is accompanied by a short report (max. 500 words) or a ReadMe file. The report should explain the developing process of the application.
-
-Creativity: Do your own research and add any other functionality to your application. (e.g.multiple variable types – Boolean, array, array, etc.; basic front-end; database complexity; multiple objects, etc.)
-
-
 ASSIGNMENT SOLUTION
 
-Neste assignment estamos desenvolvendo uma aplicao de web, sera usado Python, Django, MySQL.
+In this assignment we are developing a web application, Python, Django, MySQL will be used.
 
-Eu comecei criando o projeto no python e rodei o Servidor de desenvolvimento Django, criei polls onde podemos ver dois modelos “Questao” e “Escolha”, desenvolvi views e configurei a database. Criei um modelo que nada mais e que uma fonte de informacoes sobre os dados e inclui migracoes que sao derivadas dos arquivos de modelos, que facilitam para o Django possa atualizar o esquema do banco de dados e corresponder com os modelos mais atuais.
+I started by creating the project in python and ran the Django Development Server, created polls where we can see two models “Question” and “Choice”, developed views and configured the database. I created a model that is nothing more than a source of information about the data and includes migrations that are derived from the model files, which make it easier for Django to update the database schema to match the most current models. The application connects to the database. I created a user who can login to the admin site.
+Basically the site has login and logout, you can reset your password and sign up. You can see the homepage after logged in, if you are logged in as an administrator you can see the available functions like adding or changing groups, users and questions. Users can vote in polls and see the result and the number of votes. The project has a certain complexity where it is possible to create operations such as read, update and delete.
 
 
 
